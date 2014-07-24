@@ -1,7 +1,7 @@
 <?php
 
 declare(encoding='UTF-8');
-namespace PONIpar;
+namespace nosfair\PONIpar;
 
 /*
    This file is part of the PONIpar PHP Onix Parser Library.
@@ -16,17 +16,5 @@ namespace PONIpar;
    Main file for require_once. Will iterate over the required files and
    require_once them.
 */
-
-foreach (array(
-	'Exceptions',
-	'DirectoryParser',
-	'Parser',
-	'Product',
-	'ProductSubitem',
-		'ProductIdentifierProductSubitem',
-	'XMLHandler',
-) as $part) {
-	require_once "$part.php";
-}
 
 ?>

@@ -11,5 +11,8 @@
 			"name": "patrick marschallek",
 			"email": "patrick@nosfair.com"
 		}
-	]
+	],
+	"autoload": {
+		"psr-4": {"nosfair\\PONIpar\\": "src/"}
+	}
 }
