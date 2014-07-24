@@ -1,0 +1,15 @@
+{
+	"name": "nosfair/PONIpar",
+	"licence": "BSD-3-Clause",
+	"type": "library",
+	"authors": [
+		{
+			"name": "sascha baeurle",
+			"email": "sascha@nosfair.com"
+		},
+		{
+			"name": "patrick marschallek",
+			"email": "patrick@nosfair.com"
+		}
+	]
+}
