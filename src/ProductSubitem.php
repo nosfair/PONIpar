@@ -1,7 +1,7 @@
 <?php
 
 declare(encoding='UTF-8');
-namespace nosfair\PONIpar;
+namespace PONIpar;
 
 /*
    This file is part of the PONIpar PHP Onix Parser Library.

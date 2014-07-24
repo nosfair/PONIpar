@@ -17,4 +17,16 @@ namespace nosfair\PONIpar;
    require_once them.
 */
 
+foreach (array(
+	'Exceptions',
+	'DirectoryParser',
+	'Parser',
+	'Product',
+	'ProductSubitem',
+		'ProductIdentifierProductSubitem',
+	'XMLHandler',
+) as $part) {
+	require_once "$part.php";
+}
+
 ?>
